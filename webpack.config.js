@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: ['reflect-metadata', './src/index.ts'],
+    entry: ['./src/index.ts'],
     output: {
         publicPath: '/public',
         filename: 'index.js',
