@@ -11,7 +11,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@munster/loader": "^0.0.1",
+        "@munster/loader": "0.0.1",
         "ts-loader": "^8.1.0",
         "typescript": "^4.2.3",
         "webpack": "^5.28.0",
@@ -19,7 +19,8 @@
         "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "@munster/model": "^0.0.10",
-        "@munster/router": "^0.0.15"
+        "@munster/core": "0.0.76",
+        "@munster/model": "0.0.69",
+        "@munster/router": "0.0.73"
     }
 }

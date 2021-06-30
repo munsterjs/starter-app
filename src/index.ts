@@ -1,5 +1,4 @@
-import { AppModule } from "./app/AppModule";
+import { initModule } from "@munster/core";
+import { AppModule } from "./app/app.module";
 
-const mod = new AppModule();
-(mod as any).initChildModules();
-(mod as any).initComponents();
+initModule(AppModule);
